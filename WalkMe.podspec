@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name                = "WalkMe"
   s.version             = "0.0.2"
   s.summary             = "WalkMe SDK for UIKit applications"
-  s.description         = <<-DESC "This is a description"
+  s.description         = <<-DESC "This is a description of the WalkMe SDK for iOS applications, view README file to learn how to integrate the SDK"
                           DESC
   s.homepage            = "http://www.walkme.com"
   s.license             = { :type => "Commercial", :file => "FILE_LICENSE" }
