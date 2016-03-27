@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "WalkMe"
-  s.version             = "0.0.2"
+  s.version             = "0.0.3"
   s.summary             = "WalkMe SDK for UIKit applications"
   s.description         = <<-DESC "This is a description of the WalkMe SDK for iOS applications, view README file to learn how to integrate the SDK"
                           DESC
@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.author              = { "WalkMe" => "support@walkmeapps.com" }
   # s.social_media_url   = "http://twitter.com/Haim Ben Chimol"
   s.platform            = :ios, "8.0"
-  s.source              = { :git => "https://github.com/walkmesdk/walkme.git", :tag => "0.0.2" }
-  s.public_header_files = "WalkMe.framework/Headers/*.h"
-  s.preserve_paths      = "WalkMe.framework"
-  s.vendored_frameworks = "WalkMe.framework"
+  s.source              = { :git => "https://github.com/walkmesdk/walkme.git", :tag => "0.0.3" }
+  s.public_header_files = "WalkMe/WalkMe.framework/Headers/*.h"
+  s.preserve_paths      = "WalkMe/WalkMe.framework"
+  s.vendored_frameworks = "WalkMe/WalkMe.framework"
   #s.frameworks          = "WebKit", "AVFoundation", "AssetsLibrary", "EventKit", "AddressBook", "CoreLocation"
   s.requires_arc = true
 
