@@ -10,10 +10,9 @@ Pod::Spec.new do |s|
   # s.social_media_url   = "http://twitter.com/Haim Ben Chimol"
   s.platform            = :ios, "8.0"
   s.source              = { :git => "https://github.com/walkmesdk/walkme.git", :tag => "0.0.2" }
-  s.source_files        = "*"
-  s.public_header_files = "WalkMe/WalkMe.framework/Headers/*.h"
-  s.preserve_paths      = "WalkMe/WalkMe.framework"
-  s.vendored_frameworks = "WalkMe/WalkMe.framework"
+  s.public_header_files = "WalkMe.framework/Headers/*.h"
+  s.preserve_paths      = "WalkMe.framework"
+  s.vendored_frameworks = "WalkMe.framework"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
